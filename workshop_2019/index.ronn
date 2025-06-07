@@ -86,7 +86,7 @@ posters and a discussion panel.
 	[_pre-ICCP Pune workshop announcement_][talk_Xue]    
   * posters (at [Manggha][www_manggha])
     * **Sylwester Arabas** (uj.edu.pl)  
-      [_particle-based-cloud-modelling.network_][poster_Arabas]
+      _particle-based-cloud-modelling.network_
     * **Piotr Bartman** (uj.edu.pl)   
       [_Super droplets in OpenFOAM_][poster_Bartman]
     * **Jan Bohrer** (tropos.de)   
@@ -96,13 +96,13 @@ posters and a discussion panel.
     * **Eshkol Eytan** (weizmann.ac.il)   
       [_Cloud's mixing: a continuous description from the core to the non-disturbed environment_][poster_Eytan]
     * **Shuxian Fan** (nuis.edu.cn)   
-      [_Effects of aerosol radiative feedback during a severe smog process based on WRF-Chem simulation_][poster_Fan]
+      _Effects of aerosol radiative feedback during a severe smog process based on WRF-Chem simulation_
     * **Markus Karrer** (uni-koeln.de)   
       [_Constraining fall speed of unrimed particles by cloud radar observations and novel modelling techniques_][poster_Karrer]
     * **Tim Luettmer** (uni-mainz.de)   
-      [_Ice formation pathways in Warm Conveyor Belts_][poster_Luettmer]
+      _Ice formation pathways in Warm Conveyor Belts_
     * **Hyunho Lee** (giss.nasa.gov)   
-      [_Evaluation of water vapor diffusion equation solving schemes for use in forward simulation of cloud Doppler radar spectra of drizzling stratocumulus_][poster_HLee]
+      _Evaluation of water vapor diffusion equation solving schemes for use in forward simulation of cloud Doppler radar spectra of drizzling stratocumulus_
     * **Junghwa Lee** (tropos.de)   
       [_How do the vertical distributions of the aerosol sizes and concentrations affect the cloud life-cycle?_][poster_Lee]
     * **Xiang-Yu Li** (uio.no)   
@@ -110,7 +110,7 @@ posters and a discussion panel.
     * **Keigo Matsuda** (jamstec.go.jp)    
       [_Enhancement of radar reflectivity factor due to turbulent droplet clustering in cumulus clouds_][poster_Matsuda]
     * **Michael Olesik** (uj.edu.pl)   
-      [_Super droplets and Ostwald ripening_][poster_Olesik]
+      _Super droplets and Ostwald ripening_
     * **Johannes Schwenkel** (uni-hannover.de)   
       [_Demystifying fog microphysics: A high-resolution Large-Eddy Simulation study with coupled particle based microphysics_][poster_Schwenkel]
 * Wednesday, April 17-th 2019 

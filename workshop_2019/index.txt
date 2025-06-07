@@ -17,7 +17,7 @@ foto_wrkshp_all         https://slayoo.github.io/workshop_2019/all.jpg
 poster_Arabas		https://slayoo.github.io/workshop_2019/files/poster_Arabas.pdf
 poster_Bartman		https://slayoo.github.io/workshop_2019/files/poster_Bartman.pdf
 poster_Bohrer		https://slayoo.github.io/workshop_2019/files/poster_Bohrer.pdf
-poster_Eytan		https://slayoo.github.io/workshop_2019/files/poster_Eytal.pdf
+poster_Eytan		https://slayoo.github.io/workshop_2019/files/poster_Eytan.pdf
 poster_Karrer		https://slayoo.github.io/workshop_2019/files/poster_Karrer.pdf
 poster_Lee		https://slayoo.github.io/workshop_2019/files/poster_Lee.pdf
 poster_HLee		https://slayoo.github.io/workshop_2019/files/poster_HLee.pptx
