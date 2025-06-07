@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv='content-type' content='text/html;charset=utf8'>
+  <meta name='generator' content='Ronn-NG/v0.9.1 (http://github.com/apjanke/ronn-ng/tree/0.9.1)'>
+  <title>Workshop on Eulerian vs. Lagrangian methods for cloud microphysics</title>
+  <style type='text/css' media='all'>
+  /* style: man */
+  body#manpage {margin:0}
+  .mp {max-width:100ex;padding:0 9ex 1ex 4ex}
+  .mp p,.mp pre,.mp ul,.mp ol,.mp dl {margin:0 0 20px 0}
+  .mp h2 {margin:10px 0 0 0}
+  .mp > p,.mp > pre,.mp > ul,.mp > ol,.mp > dl {margin-left:8ex}
+  .mp h3 {margin:0 0 0 4ex}
+  .mp dt {margin:0;clear:left}
+  .mp dt.flush {float:left;width:8ex}
+  .mp dd {margin:0 0 0 9ex}
+  .mp h1,.mp h2,.mp h3,.mp h4 {clear:left}
+  .mp pre {margin-bottom:20px}
+  .mp pre+h2,.mp pre+h3 {margin-top:22px}
+  .mp h2+pre,.mp h3+pre {margin-top:5px}
+  .mp img {display:block;margin:auto}
+  .mp h1.man-title {display:none}
+  .mp,.mp code,.mp pre,.mp tt,.mp kbd,.mp samp,.mp h3,.mp h4 {font-family:monospace;font-size:14px;line-height:1.42857142857143}
+  .mp h2 {font-size:16px;line-height:1.25}
+  .mp h1 {font-size:20px;line-height:2}
+  .mp {text-align:justify;background:#fff}
+  .mp,.mp code,.mp pre,.mp pre code,.mp tt,.mp kbd,.mp samp {color:#131211}
+  .mp h1,.mp h2,.mp h3,.mp h4 {color:#030201}
+  .mp u {text-decoration:underline}
+  .mp code,.mp strong,.mp b {font-weight:bold;color:#131211}
+  .mp em,.mp var {font-style:italic;color:#232221;text-decoration:none}
+  .mp a,.mp a:link,.mp a:hover,.mp a code,.mp a pre,.mp a tt,.mp a kbd,.mp a samp {color:#0000ff}
+  .mp b.man-ref {font-weight:normal;color:#434241}
+  .mp pre {padding:0 4ex}
+  .mp pre code {font-weight:normal;color:#434241}
+  .mp h2+pre,h3+pre {padding-left:0}
+  ol.man-decor,ol.man-decor li {margin:3px 0 10px 0;padding:0;float:left;width:33%;list-style-type:none;text-transform:uppercase;color:#999;letter-spacing:1px}
+  ol.man-decor {width:100%}
+  ol.man-decor li.tl {text-align:left}
+  ol.man-decor li.tc {text-align:center;letter-spacing:4px}
+  ol.man-decor li.tr {text-align:right;float:right}
+  </style>
+  <style type='text/css' media='all'>
+  /* style: toc */
+  .man-navigation {display:block !important;position:fixed;top:0;left:113ex;height:100%;width:100%;padding:48px 0 0 0;border-left:1px solid #dbdbdb;background:#eee}
+  .man-navigation a,.man-navigation a:hover,.man-navigation a:link,.man-navigation a:visited {display:block;margin:0;padding:5px 2px 5px 30px;color:#999;text-decoration:none}
+  .man-navigation a:hover {color:#111;text-decoration:underline}
+  </style>
+</head>
+<!--
+  The following styles are deprecated and will be removed at some point:
+  div#man, div#man ol.man, div#man ol.head, div#man ol.man.
+
+  The .man-page, .man-decor, .man-head, .man-foot, .man-title, and
+  .man-navigation should be used instead.
+-->
+<body id='manpage'>
+  <div class='mp' id='man'>
+
+  <div class='man-navigation' style='display:none'>
+    <a href="#TOPICS-AND-FORMAT">TOPICS AND FORMAT</a>
+    <a href="#WORKSHOP-AGENDA">WORKSHOP AGENDA</a>
+    <a href="#PHOTOS">PHOTOS</a>
+    <a href="#ORGANISATION-AND-FUNDING">ORGANISATION AND FUNDING</a>
+  </div>
+
+  <ol class='man-decor man-head man head'>
+    <li class='tl'>index</li>
+    <li class='tc'></li>
+    <li class='tr'>index</li>
+  </ol>
+
+  
+
+<h1 id="Workshop-on-Eulerian-vs-Lagrangian-methods-for-cloud-microphysics">Workshop on Eulerian vs. Lagrangian methods for cloud microphysics</h1>
+<p>The meeting was aimed at bringing together researchers working on <strong>modelling
+cloud microphysics</strong>. It was a follow up event to the <a href="http://goo.gl/1fj5H8">workshop organised
+in Warsaw in 2015</a>.</p>
+
+<p>The meeting was organised jointly by: <br>
+- <a href="http://kmo.matinf.uj.edu.pl/indexEN.php">Division of Computational Mathematics, Faculty of Math. and CS, Jagiellonian University</a> &amp; <br>
+- <a href="http://www.igf.fuw.edu.pl/">Institute of Geophysics, Faculty of Physics, University of Warsaw</a>.</p>
+
+<p>The workshop took place <strong>in Cracow, Poland on April 15-17, 2019</strong>
+in the ``Auditorium Maximum'' of the Jagiellonian University.</p>
+
+<p><img src="http://www.igf.fuw.edu.pl/~slayoo/workshop_2019/audimax.jpg" alt="Auditorium Maximum UJ"></p>
+
+<h2 id="TOPICS-AND-FORMAT">TOPICS AND FORMAT</h2>
+
+<p>The axis of the workshop was the juxtaposition of the Eulerian 
+(bulk or bin) and the Lagrangian (particle-based) methods for modelling clouds.
+The workshop featured introductory lectures, contributed talks,
+posters and a discussion panel.</p>
+
+<h2 id="WORKSHOP-AGENDA">WORKSHOP AGENDA</h2>
+
+<ul>
+  <li>Monday, April 15-th 2019
+    <ul>
+      <li>session I,  <br>
+chairs/organisers: <strong>Hanna Pawlowska</strong> (uw.edu.pl) &amp; <strong>Sylwester Arabas</strong> (uj.edu.pl)
+        <ul>
+          <li>welcome from the organisers</li>
+          <li>introductory lecture:
+            <ul>
+              <li>
+<strong>Zachary Lebo</strong> (uwyo.edu) <br>
+<em>Aerosol-cloud-precipitation interactions in deep convective clouds</em>
+</li>
+            </ul>
+          </li>
+          <li>talk:
+            <ul>
+              <li>
+<strong>Adrian  Hill</strong> (metoffice.gov.uk) <br>
+<a href="https://slayoo.github.io/workshop_2019/files/talk_Hill.pptx"><em>The GASS Microphysics Intercomparison Project: How Different Are Aerosol-Cloud-Precipitation Interactions from a Variety of Microphysics Schemes?</em></a>
+</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>session II, chair: <strong>Shin-ichiro Shima</strong> (u-hyogo.ac.jp)
+        <ul>
+          <li>talks:
+            <ul>
+              <li>
+<strong>Raymond Shaw</strong> (mtu.edu) <br>
+<a href="https://slayoo.github.io/workshop_2019/files/talk_Shaw.pptx"><em>Large Eddy Simulation of Turbulent Convection and Cloud Microphysics in the Pi Chamber</em></a>
+</li>
+              <li>
+<strong>Juan Pedro Mellado</strong> (upc.edu)  <br>
+<a href="https://slayoo.github.io/workshop_2019/files/talk_Mellado.pdf"><em>DNS and LES for simulating stratocumulus: better together</em></a>
+</li>
+              <li>
+<strong>Piotr Dziekan</strong> (uw.edu.pl) <br>
+<a href="https://slayoo.github.io/workshop_2019/files/talk_Dziekan.pdf"><em>UWLCM: a LES Model with Lagrangian Microphysics; turbulent advection, condensation and coalescence</em></a>
+</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>session III, chair: <strong>Yign Noh</strong> (yonsei.ac.kr)
+        <ul>
+          <li>talks:
+            <ul>
+              <li>
+<strong>Noemi Sarkadi</strong> (pte.hu) <br>
+<a href="https://slayoo.github.io/workshop_2019/files/talk_Sarkadi.pdf"><em>Simulation of convective development with bin scheme: LBA case study to investigate the interaction between dynamics and microphysics</em></a>
+</li>
+              <li>
+<strong>Bernhard Schulz</strong> (mpimet.mpg.de) <br>
+<a href="https://slayoo.github.io/workshop_2019/files/talk_Schulz.pdf"><em>Competing Effects of Droplet Sedimentation and Wind Shear on Entrainment in Stratocumulus</em></a>
+</li>
+              <li>
+<strong>Wojciech Grabowski</strong> (ncar.ucar.edu) <br>
+<a href="https://slayoo.github.io/workshop_2019/files/talk_Grabowski.pdf"><em>Separating physical impacts from natural variability using piggybacking (master-slave) technique</em></a>
+</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Tuesday, April 16-th 2019
+    <ul>
+      <li>session IV, chair: <strong>Juan Pedro Mellado</strong> (upc.edu)
+        <ul>
+          <li>introductory lecture:
+            <ul>
+              <li>
+<strong>Anna Jaruga</strong> (caltech.edu) <br>
+<a href="https://slayoo.github.io/workshop_2019/files/talk_Jaruga.pdf"><em>Aqueous chemical reactions in atmospheric clouds</em></a>
+</li>
+            </ul>
+          </li>
+          <li>talks:
+            <ul>
+              <li>
+<strong>Emma Simpson</strong> (manchester.ac.uk) <br>
+<a href="https://slayoo.github.io/workshop_2019/files/talk_Simpson.pptx"><em>Modelling co-condensation of semi-volatile organic compounds using an open access cloud parcel model</em></a>
+</li>
+              <li>
+<strong>Juha Tonttila</strong> (fmi.fi) <br>
+<a href="https://slayoo.github.io/workshop_2019/files/talk_Tonttila.pdf"><em>Design and applications of the detailed sectional aerosol-cloud model SALSA in a cloud-resolving setup</em></a>
+</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>session V, chair: <strong>Raymond Shaw</strong> (mtu.edu)
+        <ul>
+          <li>talks:
+            <ul>
+              <li>
+<strong>Alexander Khain</strong> (huji.ac.il) <br>
+<a href="https://slayoo.github.io/workshop_2019/files/talk_Khain.pptx"><em>Computationally efficient linear semi-Lagrangian scheme for advection of microphysical variables in cloud-resolving models</em></a>
+</li>
+              <li>
+<strong>Zachary Lebo</strong> (uwyo.edu) <br>
+<em>Spurious broadening of modeled cloud droplet spectra using bin microphysics in an Eulerian spatial domain</em>
+</li>
+              <li>
+<strong>Gustavo Abade</strong> (uw.edu.pl) <br>
+<a href="https://slayoo.github.io/workshop_2019/files/talk_Abade.pdf"><em>Study of droplet-size distribution in turbulent clouds using stochastic microphysics at unresolved scales</em></a>
+</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>session VI, chair: <strong>Oswald Knoth</strong> (tropos.de)
+        <ul>
+          <li>talks
+            <ul>
+              <li>
+<strong>Bogdan Rosa</strong> (imgw.pl)  <br>
+<a href="https://slayoo.github.io/workshop_2019/files/talk_Rosa.ppt"><em>Numerical investigation of collision statistics of cloud droplets with the focus on two-way coupling effects</em></a>
+</li>
+              <li>
+<strong>Shin-ichiro Shima</strong> (u-hyogo.ac.jp) <br>
+<a href="https://slayoo.github.io/workshop_2019/files/talk_Shima.pdf"><em>Performance comparison among three Monte Carlo schemes for collision-coalescence: O'Rourke method, No-Time Counter method, and Super-Droplet method</em></a>
+</li>
+              <li>
+<strong>Simon Unterstrasser</strong> (dlr.de) <br>
+<a href="https://slayoo.github.io/workshop_2019/files/talk_Unterstrasser.pdf"><em>Particle-based coalescence/aggregation in a column model: Rigorous evaluation and comparison with bin model solutions</em></a>
+</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>session VII, chair: <strong>Wojciech Grabowski</strong> (ncar.ucar.edu)
+        <ul>
+          <li>talks:
+            <ul>
+              <li>
+<strong>Christoph Siewert</strong> (dwd.de) <br>
+<a href="https://slayoo.github.io/workshop_2019/files/talk_Siewert.pdf"><em>The particle-based mixed-phase cloud microphysics model McSnow</em></a>
+</li>
+              <li>
+<strong>Axel Seifert</strong> (dwd.de) <br>
+<a href="https://slayoo.github.io/workshop_2019/files/talk_Seifert.pdf"><em>A similarity model of partially rimed snowflakes and its application in Lagrangian super-particle simulations</em></a>
+</li>
+            </ul>
+          </li>
+          <li>announcement:
+            <ul>
+              <li>
+<strong>Lulin Xue</strong> (ncar.ucar.edu) <br>
+<a href="https://slayoo.github.io/workshop_2019/files/talk_Xue.pdf"><em>pre-ICCP Pune workshop announcement</em></a>
+</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>posters (at <a href="http://manggha.pl/en">Manggha</a>)
+        <ul>
+          <li>
+<strong>Sylwester Arabas</strong> (uj.edu.pl)<br>
+<a href="https://slayoo.github.io/workshop_2019/files/poster_Arabas.pdf"><em>particle-based-cloud-modelling.network</em></a>
+</li>
+          <li>
+<strong>Piotr Bartman</strong> (uj.edu.pl) <br>
+<a href="https://slayoo.github.io/workshop_2019/files/poster_Bartman.pdf"><em>Super droplets in OpenFOAM</em></a>
+</li>
+          <li>
+<strong>Jan Bohrer</strong> (tropos.de) <br>
+<a href="https://slayoo.github.io/workshop_2019/files/poster_Bohrer.pdf"><em>Implementation of Discrete Particle Methods in a scalable Atmospheric Fluid Dynamics solver</em></a>
+</li>
+          <li>
+<strong>Tom Dror-Schwartz</strong> (weizman.ac.il) <br>
+<em>Ultra-giant CCN's effect on warm clouds</em>
+</li>
+          <li>
+<strong>Eshkol Eytan</strong> (weizmann.ac.il) <br>
+<a href="https://slayoo.github.io/workshop_2019/files/poster_Eytal.pdf"><em>Cloud's mixing: a continuous description from the core to the non-disturbed environment</em></a>
+</li>
+          <li>
+<strong>Shuxian Fan</strong> (nuis.edu.cn) <br>
+<a href="https://slayoo.github.io/workshop_2019/files/poster_Fan.pdf"><em>Effects of aerosol radiative feedback during a severe smog process based on WRF-Chem simulation</em></a>
+</li>
+          <li>
+<strong>Markus Karrer</strong> (uni-koeln.de) <br>
+<a href="https://slayoo.github.io/workshop_2019/files/poster_Karrer.pdf"><em>Constraining fall speed of unrimed particles by cloud radar observations and novel modelling techniques</em></a>
+</li>
+          <li>
+<strong>Tim Luettmer</strong> (uni-mainz.de) <br>
+<a href="https://slayoo.github.io/workshop_2019/files/poster_Luettmer.pdf"><em>Ice formation pathways in Warm Conveyor Belts</em></a>
+</li>
+          <li>
+<strong>Hyunho Lee</strong> (giss.nasa.gov) <br>
+<a href="https://slayoo.github.io/workshop_2019/files/poster_HLee.pptx"><em>Evaluation of water vapor diffusion equation solving schemes for use in forward simulation of cloud Doppler radar spectra of drizzling stratocumulus</em></a>
+</li>
+          <li>
+<strong>Junghwa Lee</strong> (tropos.de) <br>
+<a href="https://slayoo.github.io/workshop_2019/files/poster_Lee.pdf"><em>How do the vertical distributions of the aerosol sizes and concentrations affect the cloud life-cycle?</em></a>
+</li>
+          <li>
+<strong>Xiang-Yu Li</strong> (uio.no) <br>
+<a href="https://slayoo.github.io/workshop_2019/files/poster_Li.pdf"><em>Condensational and collisional growth of cloud droplets in a turbulent environment</em></a>
+</li>
+          <li>
+<strong>Keigo Matsuda</strong> (jamstec.go.jp)  <br>
+<a href="https://slayoo.github.io/workshop_2019/files/poster_Matsuda.pdf"><em>Enhancement of radar reflectivity factor due to turbulent droplet clustering in cumulus clouds</em></a>
+</li>
+          <li>
+<strong>Michael Olesik</strong> (uj.edu.pl) <br>
+<a href="https://slayoo.github.io/workshop_2019/files/poster_Olesik.pdf"><em>Super droplets and Ostwald ripening</em></a>
+</li>
+          <li>
+<strong>Johannes Schwenkel</strong> (uni-hannover.de) <br>
+<a href="https://slayoo.github.io/workshop_2019/files/poster_Schwenkel.pdf"><em>Demystifying fog microphysics: A high-resolution Large-Eddy Simulation study with coupled particle based microphysics</em></a>
+</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Wednesday, April 17-th 2019
+    <ul>
+      <li>session VIII, chair: <strong>Axel Seifert</strong> (dwd.de)
+        <ul>
+          <li>talks:
+            <ul>
+              <li>
+<strong>Guy Dagan</strong> (ox.ac.uk)  <br>
+<a href="https://slayoo.github.io/workshop_2019/files/talk_Dagan.pptx"><em>Identifying the spatial scales in aerosol-precipitation interactions from a water and energy budget perspective</em></a>
+</li>
+              <li>
+<strong>Qian Chen</strong> (nuis.edu.cn)   <br>
+<a href="https://slayoo.github.io/workshop_2019/files/talk_Chen.pdf"><em>Aerosol Impacts on Mesoscale Convective Systems Forming under Different Vertical Wind Shear Conditions</em></a>
+</li>
+              <li>
+<strong>Yign Noh</strong> (yonsei.ac.kr) <br>
+<a href="https://slayoo.github.io/workshop_2019/files/talk_Noh.pdf"><em>A Cloud Microphysics Parameterization for Shallow Cumulus Clouds Based on Lagrangian Cloud Model Simulations</em></a>
+</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>session IX - panel discussion    <br>
+chairs: <strong>Simon Unterstrasser</strong> (dlr.de) &amp; <strong>Adrian Hill</strong> (metoffice.gov.uk)</li>
+    </ul>
+  </li>
+</ul>
+
+<p>The panel discussion "Modeling of cloud microphysics: Can we do better?" focused on the 
+points raised in the BAMS paper of the same title (<a href="https://doi.org/10.1175/BAMS-D-18-0005.1">doi:10.1175/BAMS-D-18-0005.1</a>).</p>
+
+<h2 id="PHOTOS">PHOTOS</h2>
+
+<p>Please click to enlarge</p>
+
+<p><a href="https://slayoo.github.io/workshop_2019/all.jpg"><img src="https://slayoo.github.io/workshop_2019/all_thumb.jpg" alt="workshop participants"></a></p>
+
+<h2 id="ORGANISATION-AND-FUNDING">ORGANISATION AND FUNDING</h2>
+
+<p>The workshop was organised by 
+<strong>Sylwester Arabas</strong> (sylwester.arabas@uj.edu.pl) and <strong>Hanna Pawlowska</strong> (hanna.pawlowska@igf.fuw.edu.pl)
+in connection with the 
+``Cloud and atmospheric particulate matter microphysics: novel mathematical modelling approaches''
+project (2018-2020) supported by the <a href="https://www.fnp.org.pl/en/powrotyreintegration-grant-winners-competition-52018/">Foundation for Polish Science</a> and hosted
+at the Jagiellonian University in Cracow.</p>
+
+  <ol class='man-decor man-foot man foot'>
+    <li class='tl'>Jagiellonian University</li>
+    <li class='tc'>June 2025</li>
+    <li class='tr'>index</li>
+  </ol>
+
+  </div>
+</body>
+</html>

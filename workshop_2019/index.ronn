@@ -1,0 +1,144 @@
+Workshop on Eulerian vs. Lagrangian methods for cloud microphysics
+==================================================================
+
+The meeting was aimed at bringing together researchers working on **modelling
+cloud microphysics**. It was a follow up event to the [workshop organised
+in Warsaw in 2015][www_workshop_2015].
+
+The meeting was organised jointly by:   
+- [Division of Computational Mathematics, Faculty of Math. and CS, Jagiellonian University][www_kmo] &   
+- [Institute of Geophysics, Faculty of Physics, University of Warsaw][www_igf].
+
+The workshop took place **in Cracow, Poland on April 15-17, 2019**
+in the ``Auditorium Maximum'' of the Jagiellonian University.
+
+![Auditorium Maximum UJ][foto_audimax]
+
+## TOPICS AND FORMAT
+
+The axis of the workshop was the juxtaposition of the Eulerian 
+(bulk or bin) and the Lagrangian (particle-based) methods for modelling clouds.
+The workshop featured introductory lectures, contributed talks,
+posters and a discussion panel.
+
+## WORKSHOP AGENDA
+
+* Monday, April 15-th 2019
+  * session I,    
+    chairs/organisers: **Hanna Pawlowska** (uw.edu.pl) & **Sylwester Arabas** (uj.edu.pl)   
+    * welcome from the organisers
+    * introductory lecture:
+      * **Zachary Lebo** (uwyo.edu)   
+	_Aerosol-cloud-precipitation interactions in deep convective clouds_
+    * talk:
+      * **Adrian  Hill** (metoffice.gov.uk)   
+	[_The GASS Microphysics Intercomparison Project: How Different Are Aerosol-Cloud-Precipitation Interactions from a Variety of Microphysics Schemes?_][talk_Hill]
+  * session II, chair: **Shin-ichiro Shima** (u-hyogo.ac.jp)
+    * talks:      
+      * **Raymond Shaw** (mtu.edu)   
+	[_Large Eddy Simulation of Turbulent Convection and Cloud Microphysics in the Pi Chamber_][talk_Shaw]
+      * **Juan Pedro Mellado** (upc.edu)    
+	[_DNS and LES for simulating stratocumulus: better together_][talk_Mellado]
+      * **Piotr Dziekan** (uw.edu.pl)   
+	[_UWLCM: a LES Model with Lagrangian Microphysics; turbulent advection, condensation and coalescence_][talk_Dziekan]
+  * session III, chair: **Yign Noh** (yonsei.ac.kr)   
+    * talks:       
+      * **Noemi Sarkadi** (pte.hu)   
+	[_Simulation of convective development with bin scheme: LBA case study to investigate the interaction between dynamics and microphysics_][talk_Sarkadi]
+      * **Bernhard Schulz** (mpimet.mpg.de)   
+	[_Competing Effects of Droplet Sedimentation and Wind Shear on Entrainment in Stratocumulus_][talk_Schulz]
+      * **Wojciech Grabowski** (ncar.ucar.edu)   
+	[_Separating physical impacts from natural variability using piggybacking (master-slave) technique_][talk_Grabowski]
+* Tuesday, April 16-th 2019
+  * session IV, chair: **Juan Pedro Mellado** (upc.edu)   
+    * introductory lecture: 
+      * **Anna Jaruga** (caltech.edu)   
+	[_Aqueous chemical reactions in atmospheric clouds_][talk_Jaruga]
+    * talks:        
+      * **Emma Simpson** (manchester.ac.uk)   
+	[_Modelling co-condensation of semi-volatile organic compounds using an open access cloud parcel model_][talk_Simpson]
+      * **Juha Tonttila** (fmi.fi)   
+	[_Design and applications of the detailed sectional aerosol-cloud model SALSA in a cloud-resolving setup_][talk_Tonttila]
+  * session V, chair: **Raymond Shaw** (mtu.edu)   
+    * talks:      
+      * **Alexander Khain** (huji.ac.il)   
+	[_Computationally efficient linear semi-Lagrangian scheme for advection of microphysical variables in cloud-resolving models_][talk_Khain]
+      * **Zachary Lebo** (uwyo.edu)   
+	_Spurious broadening of modeled cloud droplet spectra using bin microphysics in an Eulerian spatial domain_
+      * **Gustavo Abade** (uw.edu.pl)   
+	[_Study of droplet-size distribution in turbulent clouds using stochastic microphysics at unresolved scales_][talk_Abade]
+  * session VI, chair: **Oswald Knoth** (tropos.de)   
+    * talks    
+      * **Bogdan Rosa** (imgw.pl)    
+	[_Numerical investigation of collision statistics of cloud droplets with the focus on two-way coupling effects_][talk_Rosa]
+      * **Shin-ichiro Shima** (u-hyogo.ac.jp)   
+	[_Performance comparison among three Monte Carlo schemes for collision-coalescence: O'Rourke method, No-Time Counter method, and Super-Droplet method_][talk_Shima]
+      * **Simon Unterstrasser** (dlr.de)   
+	[_Particle-based coalescence/aggregation in a column model: Rigorous evaluation and comparison with bin model solutions_][talk_Unterstrasser]
+  * session VII, chair: **Wojciech Grabowski** (ncar.ucar.edu)   
+    * talks:   
+      * **Christoph Siewert** (dwd.de)   
+	[_The particle-based mixed-phase cloud microphysics model McSnow_][talk_Siewert]
+      * **Axel Seifert** (dwd.de)   
+	[_A similarity model of partially rimed snowflakes and its application in Lagrangian super-particle simulations_][talk_Seifert]
+    * announcement:    
+      * **Lulin Xue** (ncar.ucar.edu)   
+	[_pre-ICCP Pune workshop announcement_][talk_Xue]    
+  * posters (at [Manggha][www_manggha])
+    * **Sylwester Arabas** (uj.edu.pl)  
+      [_particle-based-cloud-modelling.network_][poster_Arabas]
+    * **Piotr Bartman** (uj.edu.pl)   
+      [_Super droplets in OpenFOAM_][poster_Bartman]
+    * **Jan Bohrer** (tropos.de)   
+      [_Implementation of Discrete Particle Methods in a scalable Atmospheric Fluid Dynamics solver_][poster_Bohrer]
+    * **Tom Dror-Schwartz** (weizman.ac.il)   
+      _Ultra-giant CCN's effect on warm clouds_
+    * **Eshkol Eytan** (weizmann.ac.il)   
+      [_Cloud's mixing: a continuous description from the core to the non-disturbed environment_][poster_Eytan]
+    * **Shuxian Fan** (nuis.edu.cn)   
+      [_Effects of aerosol radiative feedback during a severe smog process based on WRF-Chem simulation_][poster_Fan]
+    * **Markus Karrer** (uni-koeln.de)   
+      [_Constraining fall speed of unrimed particles by cloud radar observations and novel modelling techniques_][poster_Karrer]
+    * **Tim Luettmer** (uni-mainz.de)   
+      [_Ice formation pathways in Warm Conveyor Belts_][poster_Luettmer]
+    * **Hyunho Lee** (giss.nasa.gov)   
+      [_Evaluation of water vapor diffusion equation solving schemes for use in forward simulation of cloud Doppler radar spectra of drizzling stratocumulus_][poster_HLee]
+    * **Junghwa Lee** (tropos.de)   
+      [_How do the vertical distributions of the aerosol sizes and concentrations affect the cloud life-cycle?_][poster_Lee]
+    * **Xiang-Yu Li** (uio.no)   
+      [_Condensational and collisional growth of cloud droplets in a turbulent environment_][poster_Li]
+    * **Keigo Matsuda** (jamstec.go.jp)    
+      [_Enhancement of radar reflectivity factor due to turbulent droplet clustering in cumulus clouds_][poster_Matsuda]
+    * **Michael Olesik** (uj.edu.pl)   
+      [_Super droplets and Ostwald ripening_][poster_Olesik]
+    * **Johannes Schwenkel** (uni-hannover.de)   
+      [_Demystifying fog microphysics: A high-resolution Large-Eddy Simulation study with coupled particle based microphysics_][poster_Schwenkel]
+* Wednesday, April 17-th 2019 
+  * session VIII, chair: **Axel Seifert** (dwd.de)   
+    * talks:   
+      * **Guy Dagan** (ox.ac.uk)    
+	[_Identifying the spatial scales in aerosol-precipitation interactions from a water and energy budget perspective_][talk_Dagan]
+      * **Qian Chen** (nuis.edu.cn)     
+	[_Aerosol Impacts on Mesoscale Convective Systems Forming under Different Vertical Wind Shear Conditions_][talk_Chen]
+      * **Yign Noh** (yonsei.ac.kr)   
+	[_A Cloud Microphysics Parameterization for Shallow Cumulus Clouds Based on Lagrangian Cloud Model Simulations_][talk_Noh]
+  * session IX - panel discussion      
+    chairs: **Simon Unterstrasser** (dlr.de) & **Adrian Hill** (metoffice.gov.uk)
+
+The panel discussion "Modeling of cloud microphysics: Can we do better?" focused on the 
+points raised in the BAMS paper of the same title ([doi:10.1175/BAMS-D-18-0005.1][doi_bams]). 
+
+## PHOTOS
+
+Please click to enlarge
+    
+[![workshop participants][foto_wrkshp_all_thumb]][foto_wrkshp_all]
+
+## ORGANISATION AND FUNDING
+
+The workshop was organised by 
+**Sylwester Arabas** (sylwester.arabas@uj.edu.pl) and **Hanna Pawlowska** (hanna.pawlowska@igf.fuw.edu.pl)
+in connection with the 
+``Cloud and atmospheric particulate matter microphysics: novel mathematical modelling approaches''
+project (2018-2020) supported by the [Foundation for Polish Science][www_fnp_powroty] and hosted
+at the Jagiellonian University in Cracow.
