@@ -119,7 +119,7 @@ posters and a discussion panel.
       * **Guy Dagan** (ox.ac.uk)    
 	[_Identifying the spatial scales in aerosol-precipitation interactions from a water and energy budget perspective_][talk_Dagan]
       * **Qian Chen** (nuis.edu.cn)     
-	[_Aerosol Impacts on Mesoscale Convective Systems Forming under Different Vertical Wind Shear Conditions_][talk_Chen]
+	_Aerosol Impacts on Mesoscale Convective Systems Forming under Different Vertical Wind Shear Conditions_
       * **Yign Noh** (yonsei.ac.kr)   
 	[_A Cloud Microphysics Parameterization for Shallow Cumulus Clouds Based on Lagrangian Cloud Model Simulations_][talk_Noh]
   * session IX - panel discussion      
